@@ -154,7 +154,7 @@ def setup():
   pygame.display.set_caption('OpenGL AR demo')
 
 
-with open('data/ar_camera.pkl', 'rb') as f:
+with open('data/ar_camera.pkl', 'r') as f:
   K = pickle.load(f)
   Rt = pickle.load(f)
 
